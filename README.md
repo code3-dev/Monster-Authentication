@@ -3,7 +3,11 @@ Modern Authentication Routes and Models for API-Monster
 
 ## Project Overview Video (Persian)
 
-<video src="https://grammyjsbot.github.io/api-monster.mp4" width="320" height="240" controls></video>
+<video width="320" height="240" controls>
+  <source src="https://grammyjsbot.github.io/api-monster.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 
 ## Features
 
