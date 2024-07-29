@@ -74,7 +74,7 @@ Modern Authentication Routes and Models for API-Monster
 ### User Dashboard Controller
 - `App\Controllers\HomeController.php`
 
-# API Monster Documentation
+## API Monster Documentation
 
 Welcome to the API-Monster documentation! Here you will find detailed information on how to use and extend the API-Monster PHP framework for building powerful APIs.
 
