@@ -41,6 +41,14 @@ class Update
                 return ['success' => false, 'message' => 'Only admins can change roles.'];
             }
 
+            // Check if email already exists
+            if (isset($data['email'])) {
+                $existingUser = $this->userModel->getByEmail($data['email']);
+                if ($existingUser && $existingUser['id'] !== $id) {
+                    return ['success' => false, 'message' => 'Email already in use.'];
+                }
+            }
+
             // Validate input data
             $validationErrors = $this->validateData($data);
             if ($validationErrors) {
